@@ -1,17 +1,14 @@
-body {
-    background: #2B2B2B;
-  }
-  
+
   .court {
-    fill: #7A7A7A;
+    fill: #CFAF92;
     stroke: #2B2B2B;
     stroke-width: 4;
     stroke-miterlimit: 10;
   }
   
   .zone {
-    fill: #7A7A7A;
-    stroke: #2B2B2B;
+    fill: #826245;
+    stroke: #ffffff;
     stroke-width: 4;
     stroke-miterlimit: 10;
   }
@@ -21,3 +18,9 @@ body {
     cursor: pointer;
   }
 
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
